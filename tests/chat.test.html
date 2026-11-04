@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pruebas de conversación — Tinta Viva</title>
+    <style>
+      body { max-width: 760px; margin: 40px auto; padding: 0 20px; color: #292820; font: 16px/1.6 system-ui, sans-serif; }
+      h1 { font-size: 24px; }
+      li { margin: 8px 0; }
+      .pass { color: #49613b; }
+      .fail { color: #b0392e; }
+      #summary { padding: 12px 16px; border-radius: 6px; background: #f0eee7; font-weight: 700; }
+    </style>
+    <script defer src="../js/chat/intentClassifier.js"></script>
+    <script defer src="../js/chat/responseBank.js"></script>
+    <script defer src="../js/chat/moodEngine.js"></script>
+    <script defer src="../js/chat/memory.js"></script>
+    <script defer src="../js/chat/chatEngine.js"></script>
+    <script defer src="./chat.test.js"></script>
+  </head>
+  <body>
+    <h1>Pruebas de conversación y memoria</h1>
+    <p id="summary" role="status">Ejecutando pruebas…</p>
+    <ol id="results"></ol>
+  </body>
+</html>
