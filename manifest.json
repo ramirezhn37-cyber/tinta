@@ -1,0 +1,55 @@
+{
+  "name": "Tinta Viva — dibuja una vida",
+  "short_name": "Tinta Viva",
+  "description": "Dibuja un personaje, descubre quién es y empieza una conversación.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#f8f6f0",
+  "theme_color": "#f8f6f0",
+  "lang": "es",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "./icons/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-maskable-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    },
+    {
+      "src": "./icons/icon-maskable-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Crear personaje",
+      "short_name": "Crear",
+      "description": "Abrir el lienzo de dibujo",
+      "url": "./#/draw",
+      "icons": [{ "src": "./icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    },
+    {
+      "name": "Mi galería",
+      "short_name": "Galería",
+      "description": "Ver los personajes guardados",
+      "url": "./#/gallery",
+      "icons": [{ "src": "./icons/icon-192.svg", "sizes": "192x192", "type": "image/svg+xml" }]
+    }
+  ]
+}
