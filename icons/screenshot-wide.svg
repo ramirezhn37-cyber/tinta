@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720">
+  <rect width="1280" height="720" fill="#f8f6f0"/>
+  <rect x="40" y="40" width="1200" height="640" rx="24" fill="#efe9dc" stroke="#d9d2c3" stroke-width="4"/>
+  <text x="640" y="300" font-family="Georgia, serif" font-size="96" font-weight="700" text-anchor="middle" fill="#2a2620">Tinta Viva</text>
+  <text x="640" y="380" font-family="Georgia, serif" font-size="40" text-anchor="middle" fill="#6b6256">Dibuja una vida. Descubre quién es.</text>
+  <text x="640" y="520" font-family="Georgia, serif" font-size="32" text-anchor="middle" fill="#8a8275">Pantalla ancha</text>
+</svg>
